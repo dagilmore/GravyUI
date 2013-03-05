@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>GravyUI v1.0</title>
+
+<link href="gravyUI.min.css" rel="stylesheet" type="text/css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="gravyUI.min.js"></script>
+</head>
+
+<body>
+	<!-- FORM, FIELDSET, LEGEND, AND INPUT-->
+    <form>
+    	<fieldset>
+        	<legend>Input types</legend>
+            <input type="text" value="Input text"><br>
+            <input type="email" value="Email text"><br>
+            <input type="search" value="Search text"><br>
+            <input type="hidden" value="Hidden text">
+            <input type="password" value="Password text">
+        </fieldset>
+    </form>
+    
+    <br><br>
+    
+    <!-- TEXTAREA -->
+    <textarea>This is a textarea</textarea>
+    
+    <br><br>
+
+	<!-- BUTTON -->
+	<button>Button</button><br>
+    <a class="button" href="#">Button</a>
+    <input type="submit" value="Submit">
+    
+    <br><br>
+    
+    <!-- FILE -->
+    <div class="file">
+	    <input type="file">
+        <input type="text" placeholder="Upload file...">
+    </div>
+    
+    <br><br>
+    
+    <!-- RADIO -->
+    <input type="radio" name="radio" id="rad1" value="Item 1"><label for="rad1">Item 1</label><br>
+    <input type="radio" name="radio" id="rad2" value="Item 2" checked><label for="rad2">Item 2</label><br>
+    <input type="radio" name="radio" id="rad3" value="Item 3"><label for="rad3">Item 3</label>
+    
+    <br><br>
+    
+    <!-- CHECKBOX -->
+    <input type="checkbox" name="checkbox" id="check1" value="Item 1" checked><label for="check1">Item 1</label><br>
+    <input type="checkbox" name="checkbox" id="check2" value="Item 2"><label for="check2">Item 2</label><br>
+    <input type="checkbox" name="checkbox" id="check3" value="Item 3" checked><label for="check3">Item 3</label>
+    
+    <br><br>
+    
+    <!-- PROGRESS BAR -->
+    <div class="progressBar">
+        <div class="progress" style="width: 68%;">
+        	<span class="desc1">this is <b>68%</b></span>
+        </div>
+        <div class="remainder" style="width: 32%;">
+	        <span class="desc2"> of the total</span>
+        </div>
+    </div>
+    
+    <br><br>
+    
+    <!-- METER -->
+    <div class="meter">
+    	<div class="progress" style="width: 68%;"></div>
+        <div class="remainder" style="width: 32%;"></div>
+    </div><br>
+    <div class="meter vertical">
+        <div class="remainder" style="height: 32%;"></div>
+    	<div class="progress" style="height: 68%;"></div>
+    </div>
+    
+    <br><br>
+    
+    <!-- SLIDER -->
+    <div class="range">
+    	<div class="bar"></div>
+        <div class="slide" style="left: 38%;"></div>
+    </div><br>
+    <div class="range vertical">
+    	<div class="bar"></div>
+        <div class="slide" style="bottom: 38%;"></div>
+    </div>
+    
+    <br><br>
+    
+    <!-- WINDOW -->
+    <div class="window movable">
+    	<div class="titleBar">
+        	<h3>Title of the window</h3>
+            <span class="close">x</span>
+        </div>
+        <div class="windowContent">
+        	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quam purus, faucibus a rhoncus a, pretium eu lacus. Vestibulum ligula nunc, gravida nec consequat vel, tempus at lorem. Donec in quam nec dui pellentesque mattis. Donec feugiat odio eu leo feugiat lacinia. Sed a arcu tortor. Curabitur in est odio, sit amet sodales mauris. Suspendisse potenti. Cras ullamcorper dapibus dictum. Nulla vitae eros urna, sed pretium dolor. Integer id ultrices nulla. Praesent ut orci nunc. Quisque diam arcu, gravida vel molestie vitae, convallis a ipsum. Proin tristique leo nisi. Morbi pretium lacinia est eu suscipit. Curabitur et nisi in enim convallis adipiscing. Curabitur bibendum rhoncus lacus, vel imperdiet velit convallis sed.</p>
+        </div>
+        <div class="buttons">
+        	<button>OK</button>
+        </div>
+    </div>
+    
+    <br><br>
+    
+    <!-- TABLE -->
+    <table class="table">
+    	<thead>
+        	<tr>
+    	    	<th data-sort="string">Field 1</th>
+	            <th data-sort="string">Field 2</th>
+            </tr>
+        </thead>
+        <tbody>
+        	<tr>
+            	<td>Value 1</td>
+                <td>Value 1 Description</td>
+            </tr>
+            <tr>
+            	<td>Value 2</td>
+                <td>Value 2 Description</td>
+            </tr>
+            <tr>
+            	<td>Value 3</td>
+                <td>Value 3 Description</td>
+            </tr>
+            <tr>
+            	<td>Value 4</td>
+                <td>Value 4 Description</td>
+            </tr>
+            <tr>
+            	<td>Value 5</td>
+                <td>Value 5 Description</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <br><br>
+    
+    <!-- ACCORDION -->
+    <div class="accordion">
+    	<div class="header">
+        	<ul class="notList">
+            	<li>Field 1</li>
+                <li>Field 2</li>
+            </ul>
+        </div>
+        <div class="itemHead">
+        	<ul class="notList">
+            	<li><span class="rightArrow"></span>Value 1</li>
+                <li>Value 1 Description</li>
+            </ul>
+        </div>
+        <div class="itemFold">
+        	<ul class="notList">
+            	<li>Fold 1</li>
+                <li>Fold 1 Description</li>
+            </ul>
+        </div>
+        <div class="itemHead">
+        	<ul class="notList">
+            	<li><span class="rightArrow"></span>Value 2</li>
+                <li>Value 2 Description</li>
+            </ul>
+        </div>
+        <div class="itemFold">
+        	<ul class="notList">
+            	<li>Fold 2</li>
+                <li>Fold 2 Description</li>
+            </ul>
+        </div>
+        <div class="itemHead">
+        	<ul class="notList">
+            	<li><span class="rightArrow"></span>Value 3</li>
+                <li>Value 3 Description</li>
+            </ul>
+        </div>
+        <div class="itemFold">
+        	<ul class="notList">
+            	<li>Fold 3</li>
+                <li>Fold 3 Description</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
