@@ -1,4 +1,4 @@
-SimpleUI
+GravyUI
 ========
 
 A starting-point UI framework for quick development.  This framework isn't meant to be an "end-all" or a "go-to" framework to replace popular UI frameworks like jQueryUI, Foundation, KendoUI, or Twitter Bootstrap.  Rather, this framework is meant to give anyone a "barebones" starting point with which to build their own UI.  I've done as much of the heavy-lifting as I see fit to comprise a basic framework.  The rest is on you to really tailor the product to your own needs.  Clone, edit, enjoy friends!
@@ -143,4 +143,4 @@ The accordion is designed to hide and show information upon click.  It looks pre
 
 Support
 ========
-If there's any questions, comments, or thoughts about the SimpleUI then let me know at [my email](mailto:me@patrickcason.com).  I'll do my best to get back to you as soon as possible.  If you think you can make the project better, then clone the repo and play with it.  I'd love to see what you come up with!
+If there's any questions, comments, or thoughts about the GravyUI then let me know at [my email](mailto:me@patrickcason.com).  I'll do my best to get back to you as soon as possible.  If you think you can make the project better, then clone the repo and play with it.  I'd love to see what you come up with!
